@@ -13,6 +13,8 @@
 		0C6C717A1E4C6FF3004DC3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C71791E4C6FF3004DC3B7 /* Assets.xcassets */; };
 		0C6C717D1E4C6FF3004DC3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C717B1E4C6FF3004DC3B7 /* LaunchScreen.storyboard */; };
 		0C6C71881E4C6FF3004DC3B7 /* ProconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C71871E4C6FF3004DC3B7 /* ProconTests.swift */; };
+		0C6C71931E4C7211004DC3B7 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C71921E4C7211004DC3B7 /* FileLoader.swift */; };
+		0C6C71951E4C7404004DC3B7 /* TextFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C71941E4C7404004DC3B7 /* TextFile.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0C6C71831E4C6FF3004DC3B7 /* ProconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6C71871E4C6FF3004DC3B7 /* ProconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProconTests.swift; sourceTree = "<group>"; };
 		0C6C71891E4C6FF3004DC3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6C71921E4C7211004DC3B7 /* FileLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
+		0C6C71941E4C7404004DC3B7 /* TextFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextFile.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				0C6C71721E4C6FF3004DC3B7 /* AppDelegate.swift */,
 				0C6C71741E4C6FF3004DC3B7 /* ViewController.swift */,
+				0C6C71921E4C7211004DC3B7 /* FileLoader.swift */,
 				0C6C71761E4C6FF3004DC3B7 /* Main.storyboard */,
 				0C6C71791E4C6FF3004DC3B7 /* Assets.xcassets */,
 				0C6C717B1E4C6FF3004DC3B7 /* LaunchScreen.storyboard */,
 				0C6C717E1E4C6FF3004DC3B7 /* Info.plist */,
+				0C6C71941E4C7404004DC3B7 /* TextFile.txt */,
 			);
 			path = Procon;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 				0C6C717D1E4C6FF3004DC3B7 /* LaunchScreen.storyboard in Resources */,
 				0C6C717A1E4C6FF3004DC3B7 /* Assets.xcassets in Resources */,
 				0C6C71781E4C6FF3004DC3B7 /* Main.storyboard in Resources */,
+				0C6C71951E4C7404004DC3B7 /* TextFile.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6C71931E4C7211004DC3B7 /* FileLoader.swift in Sources */,
 				0C6C71751E4C6FF3004DC3B7 /* ViewController.swift in Sources */,
 				0C6C71731E4C6FF3004DC3B7 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +413,7 @@
 				0C6C718E1E4C6FF3004DC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6C718F1E4C6FF3004DC3B7 /* Build configuration list for PBXNativeTarget "ProconTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				0C6C71911E4C6FF3004DC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
