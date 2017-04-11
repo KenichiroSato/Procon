@@ -23,13 +23,26 @@ class ViewController: UIViewController {
         }
         
 
-        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         start()
     }
+}
+
+//C016:Leet文字列 
+func C016() {
+    let st = read()
+    let newSt = st.replacingOccurrences(of: "A", with: "4")
+        .replacingOccurrences(of: "E", with: "3")
+        .replacingOccurrences(of: "G", with: "6")
+        .replacingOccurrences(of: "I", with: "1")
+        .replacingOccurrences(of: "O", with: "0")
+        .replacingOccurrences(of: "S", with: "5")
+        .replacingOccurrences(of: "Z", with: "2")
+    
+    print(newSt)
 }
 
 //C015:ポイントカードの計算
