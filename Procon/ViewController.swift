@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             return FileLoader.read()
         }
         
-        
+
         
     }
 
@@ -32,7 +32,25 @@ class ViewController: UIViewController {
     }
 }
 
-//C010:安息の地を求めて 
+//C015:ポイントカードの計算
+func C015() {
+    let num = Int(read())!
+    var sum = 0
+    for _ in 0 ..< num {
+        let numR = read().split(separator: " ")
+        let day = numR[0]
+        let b = Double(numR[1])!
+        
+        let ratio = day.contains("3") ? 0.03 :
+            day.contains("5") ? 0.05 : 0.01
+        
+        sum += Int(b * ratio)
+        
+    }
+    print(sum)
+}
+
+//C010:安息の地を求めて
 func C010() {
     func printresult(_ ok:Bool) {
         let text = ok ? "silent": "noisy"
